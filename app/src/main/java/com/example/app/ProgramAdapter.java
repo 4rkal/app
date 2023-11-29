@@ -4,7 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Context;
+import android.content.Context;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
@@ -44,7 +44,7 @@ public class ProgramAdapter extends ArrayAdapter<String> {
         singleItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getContext(),"You clicked" + ProgramName[possition], Toast.LENGTH_SHORT);
+                Toast.makeText(getContext(),"You clicked" + programName[position], Toast.LENGTH_SHORT).show();
 
             }
         });
