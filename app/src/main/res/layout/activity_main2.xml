@@ -6,6 +6,7 @@
     tools:context=".MainActivity2">
 
     <ListView
+        android:layout_marginTop="120dp"
         android:id="@+id/lvProgram"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
