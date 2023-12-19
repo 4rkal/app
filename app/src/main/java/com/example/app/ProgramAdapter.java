@@ -38,7 +38,6 @@ public class ProgramAdapter extends ArrayAdapter<String> {
         holder.itemImage.setImageResource(images[position]);
         holder.programTitle.setText(programName[position]);
         holder.programDescription.setText(programDescription[position]);
-
         singleItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
