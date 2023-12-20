@@ -14,10 +14,25 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity2 extends AppCompatActivity {
 
     ListView lvProgram;
-    String[] programName = {"Football", "Basketball", "Drawing", "G", "G", "G", "Football", "Basketball", "Drawing", "G", "G", "G"};
-    String[] programDescription = {"Play football for 15 mins", "Play basketball for 15 mins", "Learn how to draw a cat", "G", "G", "G", "Play football for 15 mins", "Play basketball for 15 mins", "Learn how to draw a cat", "G", "G", "G"};
+    String[] programName = {"Football", "Basketball", "Drawing", "Gardening", "Coding", "Cooking", "Photography", "Reading", "Yoga"};
+    String[] programDescription = {"Play football for 15 mins", "Play basketball for 15 mins", "Learn how to draw a cat",
+            "Plant flowers in the garden", "Code a simple program", "Cook a new recipe",
+            "Take photos of nature", "Read a book for 30 mins", "Practice yoga for relaxation"};
 
-    int[] programImages = new int[]{R.drawable.football, R.drawable.basketball, R.drawable.drawing, R.drawable.football, R.drawable.basketball, R.drawable.drawing, R.drawable.football, R.drawable.basketball, R.drawable.drawing, R.drawable.football, R.drawable.basketball, R.drawable.drawing};
+    String[] programCategory = {"sport", "sport", "art", "hobby", "technology", "culinary", "art", "literature", "health"};
+
+
+    int[] programImages = {
+            R.drawable.football,
+            R.drawable.basketball,
+            R.drawable.drawing,
+            R.drawable.gardening,
+            R.drawable.coding,
+            R.drawable.cooking,
+            R.drawable.photography,
+            R.drawable.reading,
+            R.drawable.yoga
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
